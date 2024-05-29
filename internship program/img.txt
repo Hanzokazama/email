@@ -1,0 +1,834 @@
+<body data-spy="scroll" data-target="#nav1">
+
+  <!-- Menu bar start -->
+  <header>
+    <div class="container" id="nav1">
+      <nav class="navbar navbar-expand-lg navbar-dark text-black bg-dark">
+        <a class="navbar-brand ms-4" href="index.html">Agni Terracato</a>
+        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#menubar"
+          aria-controls="menubar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menubar">
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item scroll-to-section pe-lg-2">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item dropdown ms-auto">
+              <a class="nav-link dropdown-toggle" href="#" id="navd" role="button" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Products
+              </a>
+              <div class="dropdown-menu " aria-labelledby="navd">
+                <a class="dropdown-item scroll-to-section " href="#latest">Latest</a>
+                <a class="dropdown-item" href="#">All products</a>
+              </div>
+            </li>
+            <li class="nav-item scroll-to-section pe-lg-2">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+  </header>
+  <!-- END OF menu bar -->
+
+  <!-- slider -->
+  <div class="container-fluid p-0  m-0 h-all">
+    <div class="row pb-5 m-0 ">
+      <div class=" col-lg-12 p-0">
+        <div id="imageslide" class="carousel carousel-dark slide vertical" data-bs-ride="carousel">
+          <!-- slider indicator -->
+          <ol class="carousel-indicators text-center ">
+            <li data-bs-target="#imageslide" data-bs-slide-to="0" class="active" style="background-color: black;"
+              aria-current="true" aria-label="First slide">
+            </li>
+            <li data-bs-target="#imageslide" data-bs-slide-to="1" style="background-color: black;"
+              aria-label="Second slide"></li>
+            <li data-bs-target="#imageslide" data-bs-slide-to="2" style="background-color: black;"
+              aria-label="Third slide"></li>
+          </ol>
+          <!-- slider indicator end -->
+          <!-- slide 1 -->
+          <div class="carousel-inner sliderin  role=" listbox">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="images/1.jpg" class=" w-100 simg-1" alt="First slide">
+              <img
+                src="https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=900&t=st=1661419065~exp=1661419665~hmac=8061db41a4f8ad20d789e35635c3e00719cbcc9bdfc5f53b6351bc46ab253493"
+                class=" w-100 simg1" alt="First slide">
+              <div class="carousel-caption caption1 d-lg-block">
+                <h3>Welcome to Agni Terracato</h3>
+                <p>Mega deal offers are on going shop now </p>
+              </div>
+            </div>
+            <!-- side 2 -->
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="images/2.jpg" class="w-100 simg-2" alt="Second slide">
+              <img
+                src="https://img.freepik.com/premium-photo/bill-shopping-cart-floating-purple-background-with-smartphone-shop-store-online-concept-cartoon-minimal-discount-promotion-sale-banner-website-3d-render-illustration_598821-1257.jpg?w=740"
+                class="w-100 simg2" alt="Second slide">
+              <div class="carousel-caption caption2 d-lg-block">
+                <h3 class="text-black">Get best offers and deals from here</h3>
+                <p class="text-black">Verified dealers get every products at low cost. Price starts from Rs
+                  99</p>
+              </div>
+            </div>
+            <!-- slide 3 -->
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="images/3.jpg" class="w-100  simg-3" alt="Third slide">
+              <img
+                src="https://img.freepik.com/free-vector/unloading-isometric-concept_1284-15712.jpg?w=740&t=st=1661446018~exp=1661446618~hmac=c7744ce6ed6c6aaf45b811bcc4dba0de2428a76816c73e4fef9eb172e8fbe789"
+                class="w-100  simg3" alt="Third slide">
+              <div class="carousel-caption caption3 d-lg-block">
+                <h3>Door step delivery</h3>
+                <p>2 to 3 days delivery.Free delivery starts @Rs 199.</p>
+              </div>
+              <!-- slide3 end -->
+            </div>
+            <!-- slide 2 end -->
+          </div>
+          <!-- slide 1 end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slider end -->
+
+  
+
+
+
+  <!-- product section -->
+  <div class="container-lg" id="latest">
+    <div class="row justify-content-center py-5">
+      <div class="col col-auto">
+        <div class="text-black ">
+          <h2 class="display-1 text-center">PRODUCTS</h2>
+          <p class="lead text-center">Recently launched and popular products</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- product section end -->
+
+  <!-- products -->
+  <div class="container-lg">
+    <!-- row 1 -->
+    <div class="row flex-wrap justify-content-center">
+      <!-- product 1 -->
+      <div class="col col-auto pb-2">
+        <div class="card " style="width: 18rem;">
+          <img src="https://img.freepik.com/premium-photo/gold-bridal-jewellery-set_1396-361.jpg?w=740"
+            class="card-img-top" alt="gold chain">
+          <div class="card-body text-black">
+            <h5 class="card-title"> Gold Chain</h5>
+            <div class="card-content">
+              <p class="card-text ">100% gold no extra charges starts @ Rs 4999.......</p>
+              <a href="#" class="btn btn-secondary">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product 1 end -->
+      <!-- product 2 start -->
+      <div class="col col-auto pb-2">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/premium-photo/white-gold-silver-ring-without-gemstone-round-diamond-with-reflection-black-background-3d-render_167862-6831.jpg?w=740"
+            class="card-img-top" alt="ring" style="height:12.8rem ;">
+          <div class="card-body text-black">
+            <h5 class="card-title">Ring</h5>
+            <div class="card-content">
+              <p class="card-text">gold ,silver,bronze type are starts @ Rs 599.......</p>
+              <a href="#" class="btn btn-secondary">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product 2 end -->
+      <!-- product 3 start -->
+      <div class="col col-auto pb-2">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/free-photo/top-view-sterling-silver-earrings-with-swarovski-crystal-with-studs-black-wall_140725-12952.jpg?w=740&t=st=1661512779~exp=1661513379~hmac=34d833455e0ca95e3113869786bb7500a8b2ef0da37b0189d4839b4a17f7f80a"
+            class="card-img-top" alt="Earings">
+          <div class="card-body text-black">
+            <h5 class="card-title">Earrings</h5>
+            <div class="card-content">
+              <p class="card-text">Premium designs are starts @ Rs 3999.......</p>
+              <a href="#" class="btn btn-secondary">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product 3 end -->
+    </div>
+    <!-- row 1 end -->
+
+    <!-- row 2 -->
+    <div class="row flex-wrap justify-content-center">
+      <!-- product 4 -->
+      <div class="col col-auto pb-2">
+        <div class="card " style="width: 18rem;">
+          <img src="https://img.freepik.com/premium-photo/gold-bangles-set_1396-358.jpg?w=740" class="card-img-top"
+            alt="bangles" style="height:13rem">
+          <div class="card-body text-black">
+            <h5 class="card-title">Bangles</h5>
+            <div class="card-content">
+              <p class="card-text"> Get a pair of bangles free starts @ Rs 2999.......</p>
+              <a href="#" class="btn btn-secondary">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product 4 end -->
+      <!-- product 5 start -->
+      <div class="col col-auto pb-2">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/premium-psd/black-perfume-bottle-logo-mockup-brand-identity-3d-render_360590-423.jpg?w=740"
+            class="card-img-top" alt="ring" style="height:13rem ;">
+          <div class="card-body text-black">
+            <h5 class="card-title">perfume</h5>
+            <div class="card-content">
+              <p class="card-text">New stawbery smell perfume starts @ Rs 799.......</p>
+              <a href="#" class="btn btn-secondary">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product 5 end -->
+      <!-- product 6 start -->
+      <div class="col col-auto pb-2">
+        <div class="card " style="width: 18rem;">
+          <img
+            src="https://img.freepik.com/free-photo/top-view-sterling-silver-earrings-with-swarovski-crystal-with-studs-black-wall_140725-12952.jpg?w=740&t=st=1661512779~exp=1661513379~hmac=34d833455e0ca95e3113869786bb7500a8b2ef0da37b0189d4839b4a17f7f80a"
+            class="card-img-top" alt="Earings">
+          <div class="card-body text-black">
+            <h5 class="card-title">Earings</h5>
+            <div class="card-content">
+              <p class="card-text">Premium designs are available starts @ Rs 3999.......</p>
+              <a href="#" class="btn btn-secondary">View product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product 6 end -->
+    </div>
+    <!-- row 2 end -->
+  </div>
+  <!-- product end -->
+
+  <!-- footer-->
+  <footer>
+    <div class="row bg-dark text-white">
+      <div class="col col-auto">
+        <form>
+         <table>
+          <tbody>
+            <!-- mail and user name -->
+            <tr>
+              <!-- mail -->
+              <td>
+                <div class="form-group px-0 mx-0" colspan="0" style="column-gap: 0rem;padding: 0%">
+                  <label for="umail" class="m-2">Email address</label>
+                  <input type="email" class="form-control m-2" id="umail"  placeholder="name@example.com">
+                </div>
+              </td>
+              <!-- mail end -->
+              <!-- name -->
+              <td>
+                <div class="form-group ms-2 px-0 mx-0 "  style="column-gap: 0rem; padding: 0%">
+                  <label for="uname" class="m-2 ms-2">Name</label>
+                  <input type="text" class="form-control " id="uname"  placeholder="Enter your name">
+                </div>
+              </td>
+              <!-- name end -->
+            </tr>
+            <!-- mail and username end -->
+            <!-- subject -->
+            <tr>
+              <td>
+                <div class="form-group ">
+                  <label for="sub" class="m-2 ms-2">Subject</label>
+                  <input type="text" class="form-control  m-2" id="sub"  style="width: 20rem;left:0" colspan="0" placeholder="Subject">
+                </div>
+              </td>
+            </tr>
+            <!-- subject end -->
+            <tr>
+              <td>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" style="width: 100px;" colspan="0" ></textarea>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+         </table>
+        </form>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+css👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼
+body {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.nav-link {
+  text-align: right;
+  
+}
+.fonts{
+  font-size: 1.3rem !important;
+}
+
+/* slide */
+
+.vertical.carousel .carousel-item {
+  overflow: hidden;
+}
+
+.vertical.carousel .carousel-item-next:not(.carousel-item-start),
+.vertical.carousel .active.carousel-item-end {
+  transform: translateY(100%);
+}
+
+.vertical.carousel .carousel-item-prev:not(.carousel-item-end),
+.vertical.carousel .active.carousel-item-start {
+  transform: translateY(-100%);
+}
+
+.vertical.carousel .carousel-indicators {
+  top: 0;
+  left: unset;
+
+  margin-left: unset !important;
+  margin-right: 1rem;
+
+  flex-direction: column;
+}
+
+.vertical.carousel .carousel-indicators [data-bs-target] {
+  height: 30px;
+  width: 3px;
+}
+
+.vertical.carousel .carousel-control-prev,
+.vertical.carousel .carousel-control-next {
+  width: 100%;
+  height: 60px;
+}
+
+.vertical.carousel .carousel-control-prev-icon,
+.vertical.carousel .carousel-control-next-icon {
+  transform: rotateZ(90deg);
+}
+
+.vertical.carousel .carousel-control-next {
+  top: unset;
+  bottom: 0;
+}
+
+.sliderin {
+  height: 90vh;
+}
+
+.simg-1 {
+  display: block !important;
+}
+
+.simg1 {
+  display: none !important;
+}
+
+.simg-2 {
+  display: block !important;
+}
+
+.simg2 {
+  display: none !important;
+}
+
+.simg-3 {
+  display: block !important;
+}
+
+.simg3 {
+  display: none !important;
+}
+
+/* slide end */
+
+
+/* slide caption */
+.caption1 {
+  left: 40rem !important;
+  right: 8rem !important;
+  top: 10rem;
+  font-size: 1.8rem;
+  padding: 0rem !important;
+  bottom: 27rem !important;
+}
+
+.caption2 {
+  top: 10rem !important;
+  left: 44rem !important;
+  right: 12rem !important;
+  font-size: 1.2rem;
+}
+
+.caption3 {
+  top: 4rem !important;
+  left: 0rem !important;
+  right: 31rem !important;
+  color: black !important;
+  font-size: 2rem !important;
+
+}
+
+h3 {
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+}
+
+
+/* product section */
+.lead {
+  font-size: 2rem !important;
+  margin: auto !important;
+}
+
+/* product section end */
+
+/* products  */
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background: #0e0e0f;
+  overflow: hidden;
+  padding-bottom: 3px !important;
+}
+
+.card .card-img-top {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.card .card-img-top img {
+  display: block;
+  width: 80%;
+  margin: 10px auto 0;
+}
+
+.card-content{
+  left: 0 !important;
+}
+.card-body .card-content {
+  position: absolute;
+  width: 100%;
+  bottom: -160px;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+.card:hover .card-body .card-content {
+  bottom: 0;
+  
+}
+
+.card-body h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  width: 100%;
+}
+.card-content p {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.btn {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  margin: 10px 0 0;
+  width: 100%;
+  font-size: 13px;
+  border-radius: 2px;
+}
+
+
+
+
+/*media queries  */
+
+/* slide caption */
+
+/* // Extra large devices (large desktops, 1200px and down) */
+
+@media (max-width:1199px) {
+  .caption1 {
+    left: 30rem !important;
+    right: 0rem !important;
+    top: 8rem;
+    font-size: 1.5rem;
+  }
+
+  .caption2 {
+    top: 12rem !important;
+    left: 40rem !important;
+    right: 4rem !important;
+    font-size: 1.2rem;
+  }
+
+  .caption3 {
+    font-size: 1.6rem !important;
+    right: 34rem !important;
+
+  }
+}
+
+/* // Large devices (desktops, 992px and down) */
+
+@media (max-width:991px) {
+  .sliderin {
+    height: 68vh;
+  }
+
+  .caption1 {
+    left: 23rem !important;
+    right: 0rem !important;
+    top: 6rem;
+
+  }
+
+  .caption2 {
+    top: 7rem !important;
+    left: 31rem !important;
+  }
+
+  .caption3 {
+    right: 31rem !important;
+    left: 1rem !important;
+    top: 2rem !important;
+
+  }
+}
+
+/* Medium devices (tablets, 768px and down) */
+
+@media (max-width:767px) {
+  .sliderin {
+    height: 54vh;
+  }
+
+  .caption1 {
+    left: 28rem !important;
+    right: 82px !important;
+    top: 4rem;
+    font-size: 18px;
+    text-align: left !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+
+  }
+
+  .caption2 {
+    left: 24rem !important;
+    right: 2rem !important;
+    font-size: 18px !important;
+    top: 3rem !important;
+  }
+
+  .caption3 {
+    font-size: 21px !important;
+    right: 23rem !important;
+    top: 1rem !important;
+  }
+
+
+}
+
+@media (max-width:625px) {
+  .caption1 {
+    left: 23rem !important;
+    right: 10px !important;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and down) */
+
+@media (max-width:576px) {
+  .simg-1 {
+    display: none !important;
+  }
+
+  .simg1 {
+    display: block !important;
+  }
+
+  .simg-2 {
+    display: none !important;
+  }
+
+  .simg2 {
+    display: block !important;
+  }
+
+  .simg-3 {
+    display: none !important;
+  }
+
+  .simg3 {
+    display: block !important;
+  }
+
+  .sliderin {
+    height: 45vh;
+  }
+
+  .caption1 {
+    left: 1rem !important;
+    right: 16rem !important;
+    font-size: 18px;
+  }
+
+  .caption2 {
+    left: 1rem !important;
+    right: 20rem !important;
+    font-size: 15px !important;
+    top: 3rem !important;
+
+  }
+
+  .caption3 {
+    font-size: 16px !important;
+    right: 15rem !important;
+    text-align: left !important;
+  }
+}
+
+/*  //extra small devices ( 480px and down) */
+
+@media (max-width:480px) {
+  .caption1 {
+    font-size: 17px;
+    right: 11rem !important;
+    top: 2rem;
+  }
+
+  h3 {
+    font-size: 15px !important;
+  }
+
+  .sliderin {
+    height: 34vh;
+  }
+
+  .vertical.carousel .carousel-indicators {
+    bottom: 43px;
+  }
+
+  .caption2 {
+    right: 13rem !important;
+    font-size: 12px !important;
+    left: 1rem !important;
+    top: 1rem !important;
+    text-align: left !important;
+
+  }
+
+  .caption3 {
+    font-size: 14px !important;
+    right: 78px !important;
+    top: 0rem !important;
+    left: 1rem !important
+  }
+
+  h3.text-black {
+    font-size: 12px !important;
+  }
+}
+new css👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼
+/* // Extra large devices (large desktops, 1200px and down) */
+
+@media (max-width:1199px) {
+    .caption1 h5{
+        
+    }
+   
+    }
+
+
+/* // Large devices (desktops, 992px and down) */
+
+@media (max-width:991px) {
+    .pic{
+        height: 60vh !important;
+    }
+    .caption1 h5{
+      top: 12rem;
+    }
+    .caption1 p{
+      top:16rem;
+    }
+   .pctrl{
+    top: auto !important;
+   }
+   .nctrl{
+    top: auto !important;
+   }
+    
+    
+}
+
+/* // Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) { 
+    
+  .caption1 h5{
+    font-size: 2rem !important;
+    top: 9.5rem;
+  }
+  .caption1 p{
+    font-size: 1rem;
+    top: 13.5rem;
+  }
+  .indi{
+    top: 1rem !important;
+    bottom: 0rem !important;
+  }
+  .pic{
+    height: 50vh!important;
+  }
+  
+}
+/* // Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .caption1 h5{
+    font-size: 24px !important;
+    top: 7rem;
+  }
+  .caption1 p{
+    font-size: 20rem;
+    top: 10rem;
+  }
+  .pic{
+    height: 40vh!important;
+  }
+      
+}
+/* //extra small devices ( 480px and down) */
+   @media
+
+
+
+
+
+   <div class="container">
+      <div class="row">
+        <div class="col col-lg-12">
+          <div class="fhead justify-content-center">
+            <h5>Let us konw your queries or suggestion</h5>
+          </div>
+          <div class="fbutton">
+            <button class="button-64" role="button"><span class="text">Check it out here</span></button>
+          </div>
+        </div>
+        <div class="col-lg-1">
+          <div class="fc1 ">
+            <h6>contact us</h6>
+            <p class="mb-0">No:45,noth street,bharath nagar,<br>tiunelveli</p>
+            <p class="mt-1">+91 1234567890</p>
+            <p class="">name@email.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    .fhead{
+  top: 19rem;
+  text-align: center !important;
+  left:26rem;
+}
+.fhead h5{
+  position: absolute;
+  font-size: 2rem !important;
+}
+.fbutton{
+  position: absolute;
+  top: 23rem !important;
+    left: 35rem;
+}
+
+.button-64 {
+  align-items: center;
+  background-color: #201e21;
+  border: 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #e0aa6e;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  font-weight: 600 !important;
+  justify-content: center;
+ width:12rem;
+ height: 3rem;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.button-64:hover{
+  background-color: #DDC2A5;
+  color: #201e21;
+  transition: 1s ease-in-out;
+}
+.fc1{
+  position: fixed;
+  top: 27rem;
+  left: 8rem;
+
+}
+.fc1 h6{
+  font-size: 1.5rem !important;
+  top: 0rem;
+}
+.fc1 p{
+  font-size: 1.1rem;
+}
+/* @media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  } */
